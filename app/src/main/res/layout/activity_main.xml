@@ -77,5 +77,15 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/hindibtn" />
 
+        <Button
+            android:id="@+id/chinesebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chinese"
+            android:onClick="@{()->callback.onButtonClick(UrlConstants.CHINESE)}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frenchbtn" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
